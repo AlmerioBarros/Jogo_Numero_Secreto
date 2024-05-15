@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --font-family: "Arvo", serif;
+    --cor_p: #f7c975 ;
+    --cor_s: #fcf3e3  ;
+
+}
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: var(--font-family);
+
+    background-color: var(--cor_p);
+    color: var(--cor_s);
+
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+
+}
+h1{
+    font-size: 4em;
+    text-shadow: 1px 1px #9b7e4a77;
+    padding: 20px;
+}
+h3{
+    font-size: 2.2em;
+    text-shadow: 1px 1px #9b7e4a77;
+    padding: 20px;
+}
+.menssagem{
+    font-size: 1.6em;
+    text-shadow: 1px 1px #9b7e4a77;
+    padding: 20px;
+}
+.box{
+    display: inline-block;
+    border: 2px solid var(--cor_s);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.referencia{
+    display: inline-block;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.acertou{
+    font-size: 3em;
+    text-shadow: 1px 1px #9b7e4a77;
+    padding: 20px;
+}
+.btn_restart{
+    font-family: var(--font-family);
+    font-size: 1.5em;
+    font-weight: bold;
+
+    text-shadow: 1px 1px #9b7e4a77;
+    box-shadow: 1px 1px #9b7e4a77 ;
+
+    background-color: transparent;
+    color: var(--cor_s);
+    border: 2px solid var(--cor_s);
+    border-radius: 7px;
+
+    margin: 20px;
+    padding: 10px;
+}
+.btn_restart:hover{
+    cursor: pointer;
+    background-color: #e9c483;
+}
